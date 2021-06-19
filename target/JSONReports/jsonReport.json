@@ -1,0 +1,77 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-11T14:44:56.444Z",
+        "line": 4,
+        "name": "Check Login function with Valid email and valid password",
+        "description": "",
+        "id": "login-functionality-test;check-login-function-with-valid-email-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7881000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open Browser",
+            "match": {
+              "location": "com.StepDefinition.Steps.open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2609000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open Login page",
+            "match": {
+              "location": "com.StepDefinition.Steps.open_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2814000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter valid email and Enter valid password",
+            "match": {
+              "location": "com.StepDefinition.Steps.enter_valid_email_and_enter_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1566000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Login successful and redirect to Account page",
+            "match": {
+              "location": "com.StepDefinition.Steps.login_successful_and_redirect_to_account_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality Test",
+    "description": "",
+    "id": "login-functionality-test",
+    "keyword": "Feature",
+    "uri": "file:Features/login.feature",
+    "tags": []
+  }
+]

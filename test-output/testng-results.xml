@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47540" started-at="2020-09-11T19:21:52 BDT" finished-at="2020-09-11T19:22:40 BDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47540" started-at="2020-09-11T19:21:52 BDT" finished-at="2020-09-11T19:22:40 BDT">
+      <class name="com.DataProviderTest.LoginTestByDataSet">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.DataProviderTest.LoginTestByDataSet@32d2fa64]" name="beforeClass" is-config="true" duration-ms="24" started-at="2020-09-11T19:21:52 BDT" finished-at="2020-09-11T19:21:52 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.DataProviderTest.LoginTestByDataSet@32d2fa64]" name="beforeMethod" is-config="true" duration-ms="11258" started-at="2020-09-11T19:21:52 BDT" finished-at="2020-09-11T19:22:03 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="searchTest(java.lang.String, java.lang.String)[pri:0, instance:com.DataProviderTest.LoginTestByDataSet@32d2fa64]" name="searchTest" duration-ms="4972" started-at="2020-09-11T19:22:03 BDT" data-provider="LoginTestDataSet1" finished-at="2020-09-11T19:22:08 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mail@mail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.DataProviderTest.LoginTestByDataSet@32d2fa64]" name="afterMethod" is-config="true" duration-ms="1745" started-at="2020-09-11T19:22:08 BDT" finished-at="2020-09-11T19:22:10 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.DataProviderTest.LoginTestByDataSet@32d2fa64]" name="beforeMethod" is-config="true" duration-ms="8224" started-at="2020-09-11T19:22:10 BDT" finished-at="2020-09-11T19:22:18 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="searchTest(java.lang.String, java.lang.String)[pri:0, instance:com.DataProviderTest.LoginTestByDataSet@32d2fa64]" name="searchTest" duration-ms="4100" started-at="2020-09-11T19:22:18 BDT" data-provider="LoginTestDataSet1" finished-at="2020-09-11T19:22:22 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mail2@mail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.DataProviderTest.LoginTestByDataSet@32d2fa64]" name="afterMethod" is-config="true" duration-ms="1937" started-at="2020-09-11T19:22:22 BDT" finished-at="2020-09-11T19:22:24 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.DataProviderTest.LoginTestByDataSet@32d2fa64]" name="beforeMethod" is-config="true" duration-ms="8738" started-at="2020-09-11T19:22:24 BDT" finished-at="2020-09-11T19:22:33 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="searchTest(java.lang.String, java.lang.String)[pri:0, instance:com.DataProviderTest.LoginTestByDataSet@32d2fa64]" name="searchTest" duration-ms="5104" started-at="2020-09-11T19:22:33 BDT" data-provider="LoginTestDataSet1" finished-at="2020-09-11T19:22:38 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mail3@mail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.DataProviderTest.LoginTestByDataSet@32d2fa64]" name="afterMethod" is-config="true" duration-ms="1402" started-at="2020-09-11T19:22:38 BDT" finished-at="2020-09-11T19:22:40 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.DataProviderTest.LoginTestByDataSet -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
